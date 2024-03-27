@@ -22,10 +22,6 @@ body {
   justify-content: center;
 }
 
-ul {
-  list-style: none;
-}
-
 .upper-case {
   text-transform: uppercase;
 }
@@ -33,7 +29,6 @@ ul {
 /******** Header ********/
 
 header {
-  /* padding-top: 22px; */
   padding-bottom: 24px;
 }
 
@@ -70,6 +65,10 @@ nav {
   padding-top: 10px;
 }
 
+.nav-bar {
+  padding-bottom: 10px;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -83,8 +82,7 @@ nav {
 
 .location-icon {
   color: black;
-  padding-right: 20px;
-  margin-left: -20px;
+  padding: 0 15px 0 15px;
 }
 
 input {
@@ -149,7 +147,7 @@ input:focus::placeholder {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-left: -25px;
+  padding: 10px 0 10px 10px;
 }
 
 .filter-box {
