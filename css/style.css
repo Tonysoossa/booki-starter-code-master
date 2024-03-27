@@ -646,6 +646,10 @@ footer {
     flex-direction: column;
   }
 
+  .card-content {
+    padding-left: 5px;
+  }
+
   .activities {
     margin-top: -50px;
   }
