@@ -20,15 +20,14 @@
 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-
   <body>
     <div class="main-container">
       <header>
         <div class="header-links">
-          <div class="header-link header-link-phone">
+          <div class="header-link">
             <a href="#section-hébergements">Hébergements</a>
           </div>
-          <div class="header-link header-link-phone">
+          <div class="header-link">
             <a href="#section-activities">Activités</a>
           </div>
         </div>
@@ -36,73 +35,71 @@
           <img src="images/logo/Booki.png" alt="Booki logo" class="logo" />
         </div>
       </header>
+      <main>
+        <div class="header-text">
+          <h1 class="h1">
+            Trouvez votre hébergement pour des vacances de rêve
+          </h1>
+          <p>En plein centre-ville ou en pleine nature</p>
+        </div>
+        <div class="nav-and-filters">
+          <form class="nav-bar">
+            <div class="nav-links">
+              <i class="fa-solid fa-location-dot location-icon"></i>
+              <input
+                type="text"
+                name="nav-search"
+                placeholder="Marseille, France"
+              />
+              <a href="#" class="nav-button nav-button-phone">
+                <p class="search">Rechercher</p>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              </a>
+            </div>
+          </form>
+          <div class="filters-block">
+            <h2 class="filter-h2">Filtres</h2>
+            <div class="filters-bar">
+              <div class="filters">
+                <a href="#">
+                  <div class="filter-box">
+                    <div class="filter">
+                      <i class="fa-solid fa-money-bill-wave filter-icons"></i
+                      ><span class="upper-case">é</span>conomique
+                    </div>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="filter-box">
+                    <div class="filter">
+                      <i class="fa-solid fa-person-dress filter-icons"></i
+                      >Familial
+                    </div>
+                  </div>
+                </a>
 
-      <div class="header-text">
-        <h1 class="h1">Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre-ville ou en pleine nature</p>
-      </div>
-
-      <nav>
-        <form class="nav-bar">
-          <div class="nav-links">
-            <i class="fa-solid fa-location-dot location-icon"></i>
-            <input
-              type="text"
-              name="nav-search"
-              placeholder="Marseille, France"
-            />
-            <a href="#" class="nav-button nav-button-phone">
-              <p class="search">Rechercher</p>
-              <i class="fa-solid fa-magnifying-glass search-icon"></i>
-            </a>
-          </div>
-        </form>
-        
-        <div class="filters-bar">
-            <h2>Filtres</h2>
-          <div class="filters">
-            <a href="#">
-              <div class="filter-box">
-                <div class="filter">
-                  <i class="fa-solid fa-money-bill-wave filter-icons"></i
-                  ><span class="upper-case">é</span>conomique
-                </div>
+                <a href="#">
+                  <div class="filter-box">
+                    <div class="filter">
+                      <i class="fa-solid fa-heart filter-icons"></i> Romantique
+                    </div>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="filter-box">
+                    <div class="filter">
+                      <i class="fa-solid fa-fire filter-icons"></i>Nos pépites
+                    </div>
+                  </div>
+                </a>
               </div>
-            </a>
-
-            <a href="#">
-              <div class="filter-box">
-                <div class="filter">
-                  <i class="fa-solid fa-person-dress filter-icons"></i>Familial
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="filter-box">
-                <div class="filter">
-                  <i class="fa-solid fa-heart filter-icons"></i> Romantique
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="filter-box">
-                <div class="filter">
-                  <i class="fa-solid fa-fire filter-icons"></i>Nos pépites
-                </div>
-              </div>
-            </a>
+            </div>
           </div>
         </div>
-      </nav>
-
-      <div class="filters-alert">
-        <i class="fa-solid fa-info info-icon"></i>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
-      </div>
-
-      <main>
+        <div class="filters-alert">
+          <i class="fa-solid fa-info info-icon"></i>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
         <div class="hebergements-and-populaires">
           <section id="section-hébergements" class="hebergements">
             <h2 class="section-title">Hébergements a Marseille</h2>
