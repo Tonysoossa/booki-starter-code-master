@@ -633,6 +633,10 @@ footer {
     flex-direction: column;
   }
 
+  .hebergements-cards img {
+    height: 130px;
+  }
+
   .card {
     width: 100%;
   }
