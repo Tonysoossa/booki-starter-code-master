@@ -434,6 +434,12 @@ footer {
     margin-top: 50px;
   }
 
+  .populaires-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .populaires-cards a {
     width: 30%;
   }
